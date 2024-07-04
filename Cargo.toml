@@ -9,3 +9,8 @@ edition = "2021"
 toml = "0.8"
 anyhow = "1.0"
 clap = { version = "4.5.4", features = ["derive"] }
+
+
+[[bin]]
+name = "lktool"
+path = "src/main.rs"
